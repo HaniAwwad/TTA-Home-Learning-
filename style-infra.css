@@ -1,0 +1,191 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #F0F8FF;
+    
+}
+
+/*Global*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden; 
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+} 
+
+.button_1{
+    height: 30px;
+    width: 50px;
+    background: #D2691E ;
+    padding: 10px;
+    border: none;
+    color: white;
+}
+
+/*header*/
+header{
+    background-color:#5F9EA0;
+    color: whitesmoke;
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: #D2691E 3px solid;
+}
+
+header a{
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+} 
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px ;
+}
+
+header #branding{
+    float: left;
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top:45px;
+}
+
+header .marked, header .current a{
+    color: #A52A2A;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+
+/* Showcase */
+#showcase{
+    min-height: 400px;
+    min-width: 900px;
+    background: url(showcase.JPG) no-repeat 0 -40px ;
+    background-size: contain, cover;
+    background-size: 110%;
+
+}
+
+#showcase h1{
+    font-size: 40px;
+    margin-bottom: 5px;
+
+}
+
+#showcase p{
+    font-size: 20px;
+    padding-bottom: 3px;
+
+}
+
+#newsletter{
+    padding: 0;
+    background-color:#5F9EA0;
+    color: whitesmoke;
+
+}
+
+#newsletter h1{
+    float: left;
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 20px;
+}
+
+#newsletter input[type="email"]{
+    height: 25px;
+    width: 250px;
+    padding: 15px;
+} 
+
+/* Boxes */
+
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+   float: left;
+   width:30%;
+   text-align: center;
+   
+padding: 15px;
+}
+
+#boxes .box img{
+     width: 90%;
+
+}
+
+footer{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: #D2691E;
+    color: white;
+}
+
+.box:hover{
+    color: #A52A2A;
+    cursor: pointer;
+    width: 300px
+}
+
+#boxes .box img {
+    border-radius: 10px;
+}
+
+.media{
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    font-size: 70px;
+    padding: 0px;
+
+}
+
+#f{
+    color: rgb(27, 10, 173);
+}
+
+#t{
+    color: rgb(45, 197, 235);
+}
+
+#y{
+    color: red;
+}
+
+#f:hover{
+    opacity: 0.9;
+    transform: rotateX(20deg);
+}
+
+#t:hover{
+    opacity: 0.9;
+    transform: rotateX(20deg);
+}
+
+#y:hover{
+    opacity: 0.9;
+    transform: rotateX(20deg);
+}
+
