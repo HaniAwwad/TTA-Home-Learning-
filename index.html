@@ -13,8 +13,8 @@
          <nav>
           <ul>
             <li class="current"><a href="index.html">Home</a></li>  
-            <li><a href="About.html">About</a></li>
-            <li><a href="Services.html">Services</a></li>
+            <li><a href="">About</a></li>
+            <li id="Sign up"><a href="">Sign up</a></li>
           </ul> 
          </nav>
      </div>
@@ -32,7 +32,7 @@
           <h1>Subscribe to our website</h1>  
           <form>
               <input type="email" placeholder="Enter your email...">
-              <button type="submit" value="Button" class="button_1"></button>
+              <button type="submit" value="Button" class="button_1">Log in</button>
           </form>
         </div>
     </section>
@@ -71,6 +71,35 @@
         </div>
     </section>
 
+    <section class="Application">
+    <form >
+        <p>Full name</p>
+        <input id="name" type="text" placeholder="Enter user Name"><br>
+            <p id="msg1" style="color: red;"></p>
+        <p>Email Address</p>
+        <input id="Email" type="email">
+        <p id="msg2" style="color: red;"></p>
+        <p>Mobile Number</p>
+        <input id="mobileNumber" type="number">
+        <p id="msg3" style="color: red;"></p>
+        <p>Country</p>
+            <select id="Country" name="Country">
+                <option value="Country">England</option>
+                <option value="Country">Scotland</option>
+            </select>
+        <p>Gender</p>
+        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <p>Hobbies<span id="Optional"> (Optional)</span></p>
+        <input type="checkbox"> Sports
+        <input type="checkbox"> Movies
+        <input type="checkbox"> Music <br>
+        <input type="button" id="Submit" value="Submit" onclick="check()">
+
+    </form>
+    </section>
+
+    <script src="script.js"></script>
     <footer>
         <p>© Copyright Hani 2021</p>
     </footer>

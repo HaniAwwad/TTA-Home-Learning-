@@ -23,11 +23,12 @@ ul{
 
 .button_1{
     height: 30px;
-    width: 50px;
+    width: 60px;
     background: #D2691E ;
     padding: 10px;
     border: none;
     color: white;
+    text-align: center;
 }
 
 /*header*/
@@ -120,19 +121,27 @@ header a:hover{
 
 #boxes{
     margin-top: 20px;
+    
 }
 
+#boxes .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 1000px;
+}
+
+
 #boxes .box{
-   float: left;
-   width:30%;
-   text-align: center;
-   
-padding: 15px;
+   min-width: 80%;
+    
 }
 
 #boxes .box img{
-     width: 90%;
-
+    width: 110%;
 }
 
 footer{
@@ -154,12 +163,11 @@ footer{
 }
 
 .media{
-    display: inline;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     text-decoration: none;
     font-size: 70px;
     padding: 0px;
-
 }
 
 #f{
@@ -175,17 +183,48 @@ footer{
 }
 
 #f:hover{
-    opacity: 0.9;
-    transform: rotateX(20deg);
+    opacity: 0.7;
+    transform: rotateZ(10deg);
 }
 
 #t:hover{
-    opacity: 0.9;
-    transform: rotateX(20deg);
+    opacity: 0.7;
+    transform: rotateZ(10deg);
 }
 
 #y:hover{
-    opacity: 0.9;
-    transform: rotateX(20deg);
+    opacity: 0.7;
+    transform: rotateZ(10deg);
+}
+
+@media screen and (min-width: 480px) {
+
+  }
+
+
+
+.Application {
+    padding:15px;
+
+}
+
+.Application p {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.Application #Submit{
+    padding-top: 5px;
+    margin-top: 5px;
+    height: 40px;
+    width: 20%;
+    background: #D2691E ;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+#Optional{
+    font-style: italic;
+    font-size: small;
 }
 
